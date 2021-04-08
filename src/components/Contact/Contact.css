@@ -1,0 +1,102 @@
+/*.contact{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*}*/
+
+/*.info{*/
+/*    padding-top: 10vh;*/
+/*    display: block;*/
+/*    width: 50%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.info h1{*/
+/*    font-size: 40px;*/
+/*}*/
+
+/*.info p{*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*.form{*/
+/*    width: 50%;*/
+/*    padding-top: 10vh;*/
+/*}*/
+
+/*.email {*/
+/*    float: right;*/
+/*    width: 49%;*/
+/*}*/
+
+/*.name {*/
+/*    float: left;*/
+/*    width: 49%;*/
+/*}*/
+
+/*.center{*/
+/*    width: 60%;*/
+/*}*/
+
+/*.espacioAbajo{*/
+/*    padding-bottom: 1vh;*/
+/*}*/
+
+/*.telephone {*/
+/*    width: 60%;*/
+/*}*/
+
+/*.telephone input {*/
+/*    width: 100%;*/
+/*}*/
+
+
+/*.message {*/
+/*    float: none;*/
+/*}*/
+
+/*textarea {*/
+/*    line-height: 100%;*/
+/*    height: 7rem;*/
+/*    resize: none;*/
+/*    width: 60%!important;*/
+/*}*/
+
+/*.asunto{*/
+/*    width: 60%;*/
+/*}*/
+
+/*.asunto input {*/
+/*    width: 100%;*/
+/*}*/
+
+/*#btn_cobtact_form button{*/
+/*    width: 60%;*/
+/*}*/
+
+/*.espacioArriba{*/
+/*    padding-top: 1vh;*/
+/*}*/
+
+/*input[type="text"]*/
+/*{*/
+/*    font-size:14px;*/
+/*    font-weight: 100!important;*/
+/*}*/
+
+
+
+.centerdiv {
+    margin: auto;
+    width: 50%;
+}
+
+.bordiado{
+    font-size: 11px;
+    text-align: center;
+    height: 12px;
+}
+
+.error-messages{
+    height: 36px;
+    border-radius: 3px;
+}

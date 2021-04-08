@@ -1,0 +1,38 @@
+.notfound{
+    /* The image used */
+    background-image: url('/src/imgs/404.png');
+
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    width:100%;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    /*background-position:right 18vh;*/
+
+    /* Full height */
+    height:100vh;
+    /*padding-right: 0!important;*/
+}
+
+@media screen and (max-width: 640px) {
+    .scarlet {
+        height: 50% !important;
+        width: 50% !important;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .scarlet {
+        height: 20% !important;
+        width: 20% !important;
+    }
+}
+
+.height{
+    height: 100vh;
+    width: 100%;
+}

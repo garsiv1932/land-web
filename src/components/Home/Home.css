@@ -1,0 +1,33 @@
+
+.parallax {
+    /* The image used */
+    background-image: url('/src/imgs/anonImage.jpg');
+
+    overflow: hidden;
+    position: relative;
+    width:100%;
+    background-attachment:fixed;
+    background-size:cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top center;
+    /*background-position:right 18vh;*/
+    
+    /* Full height */
+    height:100vh;
+    padding-right: 0!important;    
+
+
+    /* Create the parallax scrolling effect */
+    /*background-position: center;*/
+}
+
+
+@media (max-width: 600px) {
+    .parallax {
+        background-image: url('/src/imgs/anonImage.jpg');
+        background-size: 145% 100%;
+        background-repeat: no-repeat;
+    }
+}
