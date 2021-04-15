@@ -5,9 +5,17 @@
         /*height:82vh;*/
         /*padding-top: 0!important;*/
         /*padding-right: 0!important;*/
-        margin-top: 18vh;
+        margin-top: 14vh;
         /*text-align: center;*/
-        background: #f1f1f1;
+        background: #f1f1f1;        
+        
+
+    }
+}
+
+@media screen and (min-width: 991px) {
+    #CV{
+        height: 74vh;
     }
 }
 
@@ -16,6 +24,7 @@
         background: #f1f1f1;
         padding-top: 10vh;
         width: 100%;
+
     }
 }
 

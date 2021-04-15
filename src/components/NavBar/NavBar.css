@@ -12,10 +12,16 @@
 /*    height: 6vh;*/
 /*}*/
 
+.namebar{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    height: 8vh;
+    background: #ffffff !important;
+}
+
 .color-nav{
     background: #f1f1f1!important;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
+    height: 6vh;
 }
 
 .paddingcero{
@@ -28,14 +34,10 @@
     padding-bottom: 0!important;
 }
 
-.namebar{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    background: #ffffff !important;
-}
+
 
 .namebar a{
-    padding-left: 8px!important;
+    padding-left: 1.5rem!important;
 }
 
 

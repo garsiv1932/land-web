@@ -15,8 +15,8 @@ function Blog({history}){
     return(
         <div>
             <div id="Blog" className="container-fluid">
-                <div className="row justify-content-center pt-sm-5 pt-lg-5">
-                    <div className="col-sm-8 col-lg-8 col-12 mt-sm-5 mt-lg-5 test">
+                <div className="row justify-content-center pt-5">
+                    <div className="col-sm-8 col-lg-8 col-12 test">
                         <div className="row testheight">
                             <div className="col-sm-6 col-lg-6 col-12 testright p-0">
                                 <a href="https://garsiv1932.github.io/HTTPCONTEXT/">
@@ -28,7 +28,7 @@ function Blog({history}){
                                 <div className="row h-100">
                                     <div id="caja-superior" className="col-sm-8 pt-sm-5 pt-lg-5 d-block pl-5">
                                         <div className="row">
-                                            <div className="col-sm-3 col-lg-3 col-2 d-flex align-items-center">
+                                            <div className="col-sm-3 col-lg-2 col-2 d-flex align-items-center">
                                                 <img src={P} className="h-75 rounded" alt="new"/>
                                             </div>
                                             <div className="col-9">
@@ -75,7 +75,7 @@ function Blog({history}){
                                 <div className="row h-100">
                                     <div id="caja-superior" className="col-sm-8 pt-sm-5 pt-lg-5 d-block pl-5">
                                         <div className="row">
-                                            <div className="col-sm-3 col-2 d-flex align-items-center">
+                                            <div className="col-sm-3 col-lg-2 col-2 d-flex align-items-center">
                                                 <img src={P} className="h-75 rounded" alt="new"/>
                                             </div>
                                             <div className="col-9">
@@ -123,7 +123,7 @@ function Blog({history}){
                                 <div className="row h-100">
                                     <div id="caja-superior" className="col-sm-8 pt-sm-5 pt-lg-5 d-block pl-5">
                                         <div className="row">
-                                            <div className="col-sm-3 col-lg-3 col-2 d-flex align-items-center">
+                                            <div className="col-sm-3 col-lg-2 col-2 d-flex align-items-center">
                                                 <img src={P} className="h-75 rounded" alt="new"/>
                                             </div>
                                             <div className="col-9">
@@ -172,7 +172,7 @@ function Blog({history}){
                                 <div className="row h-100">
                                     <div id="caja-superior" className="col-sm-8 d-block pt-sm-5 pt-lg-5 pl-5">
                                         <div className="row">
-                                            <div className="col-sm-3 col-lg-3 col-2 d-flex align-items-center">
+                                            <div className="col-sm-3 col-lg-2 col-2 d-flex align-items-center">
                                                 <img src={P} className="h-75 rounded" alt="new"/>
                                             </div>
                                             <div className="col-9">

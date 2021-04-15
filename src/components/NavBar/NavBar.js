@@ -13,14 +13,14 @@ function BarNav(){
     
     return(
     <div id="barnav">
-        <Navbar collapseOnSelect expand="lg" fixed="top" className="paddingcero height d-none d-sm-block">
+        <Navbar expand="lg" fixed="top" className="paddingcero height d-none d-sm-block">
             <div className="pl-5 namebar">
                 <Link className="navbar-brand namebartext" to="/Home">PABLO LLORACH</Link>
             </div>
             <div className="color-nav">
                 <div className="ml-5">
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse>
+                    {/*<Navbar.Toggle aria-controls="responsive-navbar-nav" />*/}
+                    <Navbar>
                         <Nav className="mr-auto">
                             <div className="lili" >
                                 <Link className="nav-link p-sm-2 p-lg-2 p-0 lilitext" to="/Home">Inicio</Link>
@@ -45,7 +45,7 @@ function BarNav(){
                                 <img alt="LinkedIn" src={linkedin}/>
                             </a>
                         </div>
-                    </Navbar.Collapse>
+                    </Navbar>
                 </div>
             </div>
         </Navbar>
