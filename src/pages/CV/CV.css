@@ -5,9 +5,9 @@
         /*height:82vh;*/
         /*padding-top: 0!important;*/
         /*padding-right: 0!important;*/
-        margin-top: 14vh;
+        margin-top: 21vh;
         /*text-align: center;*/
-        background: #f1f1f1;        
+        background: #ffffff;        
         
 
     }
@@ -21,8 +21,8 @@
 
 @media screen and (max-width: 640px) {
     #CV {
-        background: #f1f1f1;
-        padding-top: 10vh;
+        background: #ffffff;
+        padding-top: 21vh;
         width: 100%;
 
     }
@@ -66,7 +66,8 @@
 /*}*/
 
 .icon {
-    background: #f1f1f1;
+    background: #ffffff;
+    /*background: #fffdfd;*/
     /*width: 5%;*/
     /*display: flex;*/
     /*!*align-items: center;*!*/

@@ -69,16 +69,25 @@ function CV({history}){
                             </p>
                         </article>
                     </div>
-                </div>
-                <div className="container h-25">
-                    <div className="justify-content-center">
-                        <p className="link">
-                            <a data-testid="linkElement"
-                               href={CV}
-                               target="_blank" rel="nofollow noopener" className="linkStyle"><span className="spanStyle"><span>CV Completo</span></span></a>
-                        </p>
+                    <div className="justify-content-center mt-lg-3 mt-5">
+                        <article className="row exp justify-content-center">
+                            <p className="link" >
+                                <a data-testid="linkElement"
+                                   href={CV}
+                                   target="_blank" rel="nofollow noopener" className="linkStyle"><span className="spanStyle"><span>CV Completo</span></span></a>
+                            </p>
+                        </article>
                     </div>
                 </div>
+                {/*<div className="container h-25 p-lg-5">*/}
+                {/*    <div className="justify-content-center">*/}
+                {/*        <p className="link">*/}
+                {/*            <a data-testid="linkElement"*/}
+                {/*               href={CV}*/}
+                {/*               target="_blank" rel="nofollow noopener" className="linkStyle"><span className="spanStyle"><span>CV Completo</span></span></a>*/}
+                {/*        </p>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
         </div>
 
