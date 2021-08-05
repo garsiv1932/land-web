@@ -17,11 +17,13 @@ import './App.css';
 import Blog from "./pages/Blog/Blog";
 import CV from "./pages/CV/CV";
 import Footer from "./Components/Footer/Footer";
+import {RadialMenu} from "./Components/RadialMenu/RadialMenu";
 
 const App = () => {
   const [hideNavAndFooter, setHideNavAndFooter] = useState(false);
   
   return (
+      
    <Router>
     <Navbar/>
     <main>
@@ -37,6 +39,7 @@ const App = () => {
           <Blog/>
         </Route>
       </Switch>
+      <RadialMenu/>
       {
         (!hideNavAndFooter)
             ?
@@ -45,6 +48,7 @@ const App = () => {
             null
       }
     </main>
+
    </Router>
   );
 }
