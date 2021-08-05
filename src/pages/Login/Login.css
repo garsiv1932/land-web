@@ -1,0 +1,26 @@
+#login img{
+    margin: 10px 0;
+}
+#login .center {
+    text-align: center;
+}
+
+#login .login {
+    max-width: 300px;
+    margin: 35px auto;
+}
+
+#login .login-form{
+    padding:0px 25px;
+}
+
+#login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bansky{
+    border-radius: 10px;
+}

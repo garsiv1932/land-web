@@ -17,29 +17,32 @@ function Login({history}) {
     }
 
     return (
-        <div className="Login">
-            <Form onSubmit={handleSubmit}>
-                <Form.Group size="lg" controlId="email">
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control
-                        autoFocus
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                    />
-                </Form.Group>
-                <Form.Group size="lg" controlId="password">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control
-                        type="password"
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                    />
-                </Form.Group>
-                <Button block size="lg" type="submit" disabled={!validateForm()}>
-                    Login
-                </Button>
-            </Form>
+        <div id="login" className="container">
+            <div className="row-fluid">
+                <div className="span12">
+                    <div className="login well well-small">
+                        <div className="center">
+                            <img src="https://static1.abc.es/media/cultura/2020/09/17/banksy-kfrF--620x349@abc.jpg" alt="logo" id="bansky" />
+                        </div>
+                        <form action="/users/login" className="login-form" id="UserLoginForm" method="post"
+                              accept-charset="utf-8">
+                            <div className="form-group">
+                                <span className="add-on"></span>
+                                <input name="data[User][username]" required="required" placeholder="Username"
+                                       maxLength="255" type="text" id="UserUsername" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <span className="add-on"></span>
+                                <input name="data[User][password]" required="required" placeholder="Password"
+                                       type="password" id="UserPassword" className="form-control"/>
+                            </div>
+                            <div className="form-group">
+                                <input className="btn btn-dark btn-large btn-block" type="submit" value="Sign in"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
