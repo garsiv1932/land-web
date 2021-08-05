@@ -1,4 +1,6 @@
-import MailIcon from "@material-ui/icons/Mail";
+import { NavLink } from 'react-router-dom';
+
+import LoginIcon from "@material-ui/icons/AccountCircle";
 import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import MapIcon from "@material-ui/icons/Map";
 import InfoIcon from "@material-ui/icons/Info";
@@ -6,7 +8,7 @@ import InfoIcon from "@material-ui/icons/Info";
 // Import the circular menu
 import { CircleMenu, CircleMenuItem } from "react-circular-menu";
 
-export const RadialMenu = (props) => {
+export const RadialMenu = () => {
     return (
         <CircleMenu
             startAngle={-90}
@@ -22,11 +24,11 @@ export const RadialMenu = (props) => {
             rotationAngleInclusive={false}
         >
             <CircleMenuItem
-                onClick={() => alert("Clicked the item")}
-                tooltip="Email"
+                link={"/Login"}
+                tooltip="Login"
                 tooltipPlacement="left-end"
             >
-                <MailIcon />
+                <LoginIcon />
             </CircleMenuItem>
             <CircleMenuItem tooltip="Help">
                 <HelpOutlineIcon />

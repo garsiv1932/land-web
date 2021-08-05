@@ -3,11 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="579b3307-20b3-4f7b-b8b4-a7ac0007abc8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.land-web.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.land-web.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/RadialMenu/RadialMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/RadialMenu/RadialMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
       <updated>1628096758147</updated>
       <workItem from="1628096761708" duration="2649000" />
       <workItem from="1628099998524" duration="3950000" />
+      <workItem from="1628150667889" duration="5003000" />
     </task>
     <servers />
   </component>

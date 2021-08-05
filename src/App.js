@@ -18,6 +18,7 @@ import Blog from "./pages/Blog/Blog";
 import CV from "./pages/CV/CV";
 import Footer from "./Components/Footer/Footer";
 import {RadialMenu} from "./Components/RadialMenu/RadialMenu";
+import Login from "./pages/Login/Login";
 
 const App = () => {
   const [hideNavAndFooter, setHideNavAndFooter] = useState(false);
@@ -38,8 +39,15 @@ const App = () => {
         <Route exact path="/Blog" component={({history}) => Blog({history})}>
           <Blog/>
         </Route>
+        <Route exact patch="/Login" component={({history}) => Login({history})}>
+          <Login/>
+        </Route>
       </Switch>
+      <div className="btn-float" >
+        <div className="btn-float-inner" >
       <RadialMenu/>
+        </div>
+      </div>
       {
         (!hideNavAndFooter)
             ?

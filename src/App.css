@@ -23,4 +23,15 @@ img {
   }
 }
 
+.btn-float{
+  Height:200px; 
+  width:45%;
+}
+
+.btn-float-inner{
+  position:fixed; 
+  top:70vh; 
+  left:90vw;
+}
+
 
