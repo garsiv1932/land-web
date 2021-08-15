@@ -5,6 +5,7 @@ export function useArticles (){
     const [articles,setArticles]= useState([])
     
     useEffect(()=> {
+        debugger
         articleService.getArticles()
             .then(initialArticles =>{
                 setArticles(initialArticles)

@@ -7,6 +7,11 @@
   height: 100vh;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden
+}
 
 img {
   max-width: 100%;
@@ -30,7 +35,7 @@ img {
 
 .btn-float-inner{
   position:fixed; 
-  top:70vh; 
+  top:80vh; 
   left:90vw;
 }
 

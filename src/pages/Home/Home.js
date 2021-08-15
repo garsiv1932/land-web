@@ -34,4 +34,4 @@ const Home = ({history}) => {
   </div>
   )
 }
-export default Home;
+export default withRouter(Home);

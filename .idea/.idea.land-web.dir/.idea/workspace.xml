@@ -2,17 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="579b3307-20b3-4f7b-b8b4-a7ac0007abc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Skeleton/SkeletonBlog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skeleton/SkeletonBlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store,js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/loginService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/storageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/validationService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.land-web.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.land-web.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useArticles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useArticles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Blog/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Blog/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/articleService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/articleService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1wGtSgHvj3MmErxIUbIzzUc4cBS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,7 +59,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,7 +75,20 @@
       <updated>1628096758147</updated>
       <workItem from="1628096761708" duration="2649000" />
       <workItem from="1628099998524" duration="3950000" />
-      <workItem from="1628150667889" duration="8863000" />
+      <workItem from="1628150667889" duration="9460000" />
+      <workItem from="1628225129811" duration="423000" />
+      <workItem from="1628262952425" duration="2889000" />
+      <workItem from="1628336912345" duration="2255000" />
+      <workItem from="1628516350157" duration="20285000" />
+      <workItem from="1628600986828" duration="44000" />
+      <workItem from="1628601064131" duration="16942000" />
+      <workItem from="1628693791199" duration="12355000" />
+      <workItem from="1628739139112" duration="1521000" />
+      <workItem from="1628741441928" duration="4351000" />
+      <workItem from="1628822099001" duration="4062000" />
+      <workItem from="1628855801272" duration="9524000" />
+      <workItem from="1628950377043" duration="2694000" />
+      <workItem from="1628973152200" duration="25746000" />
     </task>
     <servers />
   </component>
