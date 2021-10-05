@@ -17,13 +17,17 @@ import CV from "./pages/CV/CV";
 
 
 
+
 import Navbar from './Components/Navbar/Navbar';
 
 
 import './App.css';
 
+import Nav from "./Components/Nav/Nav";
 import Footer from "./Components/Footer/Footer";
 import {RadialMenu} from "./Components/RadialMenu/RadialMenu";
+
+
 
 const App = () => {
   const [hideNavAndFooter, setHideNavAndFooter] = useState(false);
@@ -65,7 +69,7 @@ const App = () => {
       </Switch>
       <div className="btn-float" >
         <div className="btn-float-inner" >
-      <RadialMenu/>
+          <RadialMenu/>
         </div>
       </div>
       {

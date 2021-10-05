@@ -40,15 +40,15 @@ const Navbar = () => {
   
 
         
-    useEffect(() => {
-
-    animation();
-
-    $(window).on('resize', function(){
-      setTimeout(function(){ animation(); }, 500);
-    });
-    
-  }, []);
+  //   useEffect(() => {
+  //
+  //   animation();
+  //
+  //   $(window).on('resize', function(){
+  //     setTimeout(function(){ animation(); }, 500);
+  //   });
+  //  
+  // }, []);
   
   return (
       <div className="fixedNav">
@@ -80,12 +80,13 @@ const Navbar = () => {
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto mr-lg-5 mr-0">
                     
-                    <div className="hori-selector">
-                      <div className="left"></div>
-                      <div className="right"></div>
-                    </div>
+                    {/*<div className="hori-selector">*/}
+                    {/*  <div className="left"></div>*/}
+                    {/*  <div className="right"></div>*/}
+                    {/*</div>*/}
+
                     
-                    <li className="nav-item active" id="homeLink" >
+                    <li className="nav-item" id="homeLink" >
                       <NavLink className="nav-link" to="/" exact >
                         <i 
                         className="fas fa-tachometer-alt">

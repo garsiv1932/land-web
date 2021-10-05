@@ -1,0 +1,75 @@
+.menu{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  position: relative;
+  // unsorted list style with material shadow
+  ul{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0 30px;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    background-color: #262626;
+    border-radius: 6px;
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,.15),0 10px 10px -5px rgba(0,0,0,.1);
+    @media screen and (max-width: 768px) {
+      padding: 0 15px;
+    }
+    // list element with z-index so that text of the menu can be infront of the menu effect slider
+    li{
+      z-index: 10;
+      // link style
+      a{
+        display: block;
+        text-decoration: none;
+        padding: 15px 20px;
+        color: #eee;
+        font-weight: 500;
+        font-size: 18px;
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+          padding: 10px 15px;
+        }
+      }
+    }
+    // active link and hover indicator, menu slider 
+    .m-active{
+      position: absolute;
+      top: -10px;
+      bottom: -10px;
+      width: 0px;
+      background-color: #097ce7;
+      transition: all 0.2s linear;
+      // top m-active element part
+      &:after{
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #085cac;
+        width: 100%;
+        height: 10px;
+        transform: skew(-45deg, 0);
+        left: -5px;
+        z-index: -1;
+      }
+      // bottom m-active element part
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #085cac;
+        width: 100%;
+        height: 10px;
+        transform: skew(45deg, 0);
+        left: -5px;
+        z-index: -1;
+        bottom: 0;
+      }
+    }
+  }
+}
