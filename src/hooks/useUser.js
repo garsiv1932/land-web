@@ -18,10 +18,7 @@ export const useUser = () => {
         
         return userLogin;
     }
-    
-    debugger
 
-    debugger
     function useLogged({history}){
         useEffect(()=>{
             if(!loginService.isAdminLoged()){

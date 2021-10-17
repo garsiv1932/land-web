@@ -12,7 +12,7 @@ import Contact from "../../Components/Contact/Contact";
 
 const Home = ({history}) => {
   return (
-    <div style={{paddingTop: "0%"}}>
+    <div style={{ paddingBotton: "0%"}}>
           <div className="parallax">
 
           </div>

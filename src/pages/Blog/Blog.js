@@ -43,7 +43,7 @@ const Blog = ({history}) => {
                                 <div className="row testheight">
                                     <div className="col-sm-6 col-lg-6 col-12 testright p-0">
                                         <a href={art.article_Link}>
-                                            <img src={art.image}></img>
+                                            <img src={art.image} alt=""/>
                                         </a>
                                     </div>
 

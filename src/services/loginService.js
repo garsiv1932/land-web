@@ -3,7 +3,6 @@ const weblink = process.env["REACT_APP_WEB_LINk"];
 const url= process.env["REACT_APP_API_URL"] + "/api/users/login";
 
 const makeLogin = async ({email, password}) => {
-    debugger
     const creds = {username:email, password:password};
     const opts = {
         method: "POST",

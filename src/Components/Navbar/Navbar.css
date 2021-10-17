@@ -60,6 +60,13 @@ i {
   font-weight: lighter;
 }
 
+/* .navbar-toggler{
+  border-color: blue;
+} */
+.navbar-toggler-icon{
+  background-image: url("../../imgs/navbar-toggle-icon.png");
+}
+
 #navbarSupportedContent {
   overflow: hidden;
   position: relative;
@@ -75,7 +82,10 @@ i {
   list-style-type: none;
   float: left;
 }
-#navbarSupportedContent ul li a {
+/* #navbartogglebutton{
+  background-color: gray;
+} */
+#navbarCollapse ul li a {
   /*color: rgba(255, 255, 255, 0.5);*/
   color: white;
   text-decoration: none;

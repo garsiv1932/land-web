@@ -1,0 +1,19 @@
+#gallery-main{
+    height: 100vh;
+    background: #182b38;
+}
+
+#under-construction-box{
+    background-image: url('/src/imgs/doing-some-work.png');
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+#under-construction-img{
+    height: 100%;
+    width: 100%;
+}
+
+.override{
+    height: unset;
+}

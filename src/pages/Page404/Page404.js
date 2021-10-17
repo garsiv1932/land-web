@@ -6,7 +6,7 @@ import './Page404.css'
 function Page404({history,setHideNavAndFooter}){
     useEffect(() => {
         setHideNavAndFooter(true);
-    });
+    },[]);
     return(
         <div className="notfound container-fluid">
             <div className="row height align-items-end">
@@ -16,13 +16,12 @@ function Page404({history,setHideNavAndFooter}){
                     </div>
                     <div className="col-6">
                         <div className="d-flex justify-content-center">
-                            <a href="/home" className="scarlet"> 
-                                <img src={scarlet} ></img>
+                            <a href="/Home" className="scarlet"> 
+                                <img src={scarlet} alt="" />
                             </a>
                         </div>
                     </div>
                 </div>
-
             </div>
             </div>
         </div>
