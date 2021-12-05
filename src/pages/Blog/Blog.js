@@ -14,7 +14,7 @@ import SkeletonBlog from "../../Components/Skeleton/SkeletonBlog";
 
 
 
-const Blog = ({history}) => {
+const Blog = ({history,setHideNavAndFooter}) => {
     const { articles } = useArticles();
     const [loading, setLoading] = useState(true);
 
@@ -23,6 +23,10 @@ const Blog = ({history}) => {
             setLoading(false);
         },5000)
     });
+
+    useEffect(() => {
+        setHideNavAndFooter(false);
+    },[]);
 
 
     const loader = () => {

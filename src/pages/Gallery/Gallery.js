@@ -11,12 +11,12 @@ function Gallery({history,setHideNavAndFooter}){
     return(
         <div id="gallery-main" className="container-fluid">
             <div className="row">
-                <div className="col-lg-2"/>
-                <div id="under-construction-box" className="col-lg-8">
+                <div className="col-lg-2 d-none d-sm-block"/>
+                <div id="under-construction-box" className="col-lg-8 col-12">
                     <img src={underConstrcution} alt="" id="under-construction-img" />
                 </div>
                 
-                <div className="col-lg-2"/>                
+                <div className="col-lg-2 d-none d-sm-block"/>                
             </div>
         </div>
     )

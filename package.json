@@ -70,5 +70,6 @@
   "devDependencies": {
     "@styled-icons/styled-icon": "^10.6.3",
     "file-loader": "^6.2.0"
-  }
+  },
+  "homepage": "."
 }

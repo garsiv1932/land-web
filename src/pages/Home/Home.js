@@ -25,9 +25,6 @@ const Home = ({history}) => {
           <section>
             <Contact/>
           </section>
-          {/*<section>*/}
-          {/*    <BlogEntries/>*/}
-          {/*</section>*/}
           <section>
             <ProyectosEntries/>
           </section>

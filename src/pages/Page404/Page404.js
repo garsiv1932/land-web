@@ -8,23 +8,7 @@ function Page404({history,setHideNavAndFooter}){
         setHideNavAndFooter(true);
     },[]);
     return(
-        <div className="notfound container-fluid">
-            <div className="row height align-items-end">
-            <div className="col-12">
-                <div className="row">
-                    <div className="col-6">
-                    </div>
-                    <div className="col-6">
-                        <div className="d-flex justify-content-center">
-                            <a href="/Home" className="scarlet"> 
-                                <img src={scarlet} alt="" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
+        <div className="notfound container-fluid"/>
     )
 }
 

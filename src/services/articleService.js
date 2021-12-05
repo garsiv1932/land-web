@@ -2,7 +2,8 @@ import {Web} from "@material-ui/icons";
 import storageService from './storageService'
 
 const webLink = process.env["REACT_APP_WEB_LINK"];
-const url = process.env["REACT_APP_API_URL"] + "/api/articulos";
+const urlArticlesByLink = process.env["REACT_APP_API_URL"] + "/api/articulos/getArticlesByLink";
+const urlArticlesQuantity = process.env["REACT_APP_API_URL"] + "/api/articulos/cantidad";
 const key = "Bearer " +   process.env["REACT_APP_API_TOKEN"];
 
 const getArticles = async () =>{
@@ -29,11 +30,12 @@ const getArticlesFromApi = async () =>{
         headers: {
             "Authorization": key,
             "Content-Type": "application/json",
-            "web_link": webLink
+            'Accept': 'application/json',
+            "link": webLink
         }
     }
 
-    return fetch(url,opts)
+    return fetch(urlArticlesByLink,opts)
         .then(e => e.json());
 }
 
@@ -43,11 +45,12 @@ const getArticlesQuantity = async () =>{
         headers: {
             "Authorization": key,
             "Content-Type": "application/json",
-            "web_link": webLink
+            'Accept': 'application/json',
+            "link": webLink
         }
     }
     
-    return fetch(url, opts)
+    return fetch(urlArticlesQuantity, opts)
         .then(e => e.json())
 }
 

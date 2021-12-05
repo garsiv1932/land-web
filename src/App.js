@@ -47,9 +47,8 @@ const App = () => {
         <Route exact path="/CV" component={({history}) => CV({history})}>
           <CV/>
         </Route>
-        <Route exact path="/Blog" component={({history}) => Blog({history})}>
-          <Blog/>
-        </Route>
+        <Route exact path="/Blog" component={({history}) => Blog({history, setHideNavAndFooter})}/>
+        
         <Route exact path="/Login" component={({history}) => Login({history})}>
           <Login/>
         </Route>
