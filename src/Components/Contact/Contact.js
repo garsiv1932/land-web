@@ -5,17 +5,27 @@ import * as Yup from 'yup'
 import emailjs from 'emailjs-com';
 import  ReCaptcha  from  'google-recaptcha-react-component';
 
+
 function Contact(){
-    
-    function recaptchaLoaded(){
-        setCatpcha(true);
-        console.log("cargo la concha de la lora");
-    }
-    
-    const [captcha, setCatpcha] = useState(false);
+const [reCaptcha, setReCaptcha] = useState({
+    captchaLoaded:false,
+    captchaStatusOk: false
+})
     const [result, setResult] = useState("");
-    
-    
+
+    function handlRef(){
+        setReCaptcha({captchaLoaded: true, captchaStatusOk: false})
+    }
+
+    useEffect( () =>{
+        console.log(reCaptcha)
+    },[])
+
+
+    function handleSuccess(){
+        setReCaptcha({captchaLoaded: true, captchaStatusOk: true});
+    }
+
     const initialValues={
         nombre: "",
         email:"",
@@ -39,6 +49,23 @@ function Contact(){
       onSubmit,
       validationSchema  
     });
+
+    function formIsValid(){
+        let result = false;
+        debugger
+        if(!formik.errors.message && !formik.errors.email && !formik.errors.nombre && formik.touched.message && formik.touched.email){
+            if(!reCaptcha.captchaLoaded){
+                result = true;
+            }else{
+                if(reCaptcha.captchaStatusOk){
+                    result = true
+                }else{
+                    result = false;
+                }
+            }
+        }
+        return result;
+    }
     
     function onSubmit(values){
         debugger;
@@ -171,7 +198,7 @@ function Contact(){
                                     className="btn btn-dark btn-block"
                                     disabled=
                                     {
-                                        !formik.errors.message && !formik.errors.email && !formik.errors.nombre && captcha 
+                                        formIsValid
                                             ? null 
                                             : 
                                             "disabled"
@@ -191,10 +218,17 @@ function Contact(){
                     </form>
                     <div className="row justify-content-center">
                         <div className="col-sm-6 col-lg-6 col-12">
-                            <ReCaptcha
-                                token='6LekzpoaAAAAAFASmo5YGz9FvYEqBf0-AH_ZmjTz'
-                                onSuccess={recaptchaLoaded}
-                            />
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <ReCaptcha
+                                        token='6LfGcoAdAAAAAEeFtn5kELmG1xs8HHXCy79J2n-r'
+                                        onSuccess={handleSuccess}
+                                        onRef={handlRef}
+                                        size="invisible"
+                                    />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>

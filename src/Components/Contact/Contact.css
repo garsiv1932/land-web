@@ -100,3 +100,15 @@
     height: 36px;
     border-radius: 3px;
 }
+
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+/*
+.g-recaptcha {
+    transform:scale(0.77);
+    -webkit-transform:scale(1.49);
+    transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+}*/
