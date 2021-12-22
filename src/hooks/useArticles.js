@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import articleService from "../services/ServiceArticle";
+import articleService from "../services/articleService";
 
 export function useArticles (){
     const [articles,setArticles]= useState([])

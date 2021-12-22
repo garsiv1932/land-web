@@ -2,7 +2,8 @@ import React from 'react'
 import {withRouter} from 'react-router-dom'
 import Images from "../../Components/Images/Images";
 import Phrase from "../../Components/Phrase/Phrase";
-import ProyectosEntries from "../../Components/ProyectosEntries/ProyectosEntries";
+/*import ProyectosEntries from "../../Components/ProyectosEntries/ProyectosEntries";*/
+import CarouselComponent from "../../Components/ProyectosEntries/carousel";
 
 
 
@@ -26,7 +27,7 @@ const Home = ({history}) => {
             <Contact/>
           </section>
           <section>
-            <ProyectosEntries/>
+            <CarouselComponent/>
           </section>
   </div>
   )

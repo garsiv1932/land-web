@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Login.css";
 import {withRouter} from "react-router-dom";
 import {useUser} from "../../hooks/useUser";
-import validations from '../../services/ServiceValidation'
+import validations from '../../services/validationService'
 
 
 function Login({history}) {

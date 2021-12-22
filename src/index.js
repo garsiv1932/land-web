@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import './index.css';
 

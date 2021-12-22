@@ -3,7 +3,7 @@ import {withRouter} from "react-router-dom";
 import {useFormik} from "formik";
 import {useState} from "react";
 import * as Yup from 'yup'
-import validationService from '../../services/ServiceValidation'
+import validationService from '../../services/validationService'
 import {useUser} from "../../hooks/useUser";
 
 function Dashboard({history}){

@@ -1,0 +1,67 @@
+.carousel-inner { 
+  margin: auto;
+  width: 800px;
+}
+
+.row.thnmb.animated{
+  margin: auto;
+  padding: auto;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  max-height: 300px;  /* change this to whatever you want */
+  width: 800px;
+  margin: 0 ! important;
+  padding: 0;
+  border-radius: 10% !important;
+  width: 50;
+  height: 50;
+  display: block;
+}
+
+.carousel.carousel-slider{
+  height: 300px !important;
+  width: 450px !important;
+}
+
+.carousel .slider-wrapper{
+  height: 100% !important;
+}
+
+.carousel .slide{
+  height: 300px;
+}
+
+.carousel-item{
+  display: flex;
+}
+
+.carousel-root{
+  margin: auto;
+}
+
+.carousel a {
+  position: absolute;
+  width: 100% !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.carousel.carousel-slider .control-arrow{
+  background-color: transparent !important;
+}
+
+.carousel .carousel-status{
+  display: none;
+}

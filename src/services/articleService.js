@@ -1,5 +1,5 @@
 import {Web} from "@material-ui/icons";
-import storageService from './ServiceStorage'
+import storageService from './storageService'
 
 const webLink = process.env["REACT_APP_WEB_LINK"];
 const urlArticlesByLink = process.env["REACT_APP_API_URL"] + "/api/articulos/getArticlesByLink";

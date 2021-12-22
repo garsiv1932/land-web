@@ -1,12 +1,13 @@
 #gallery-main{
-    height: 100vh;
+    height: 93vh;
     background: #182b38;
 }
 
 #under-construction-box{
-    background-image: url('/src/imgs/doing-some-work.png');
+/*    background-image: url('/src/imgs/doing-some-work.png');*/
     background-repeat: no-repeat;
     height: 70vh;
+    margin-top: 11vh !important;
 }
 
 #under-construction-img{
